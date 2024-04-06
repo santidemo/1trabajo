@@ -21,9 +21,9 @@ print("2_ Multiplicacion")
 print("3_ Resta")
 print("4_ Division")
 
-opcion = input("Seleccione un numero para su operacion ")
-n1=float(input("Ingrese primer numero"))
-n2=float(input("Ingrese segundo numero"))
+opcion = input("Seleccione un numero para su operacion: ")
+n1=float(input("Ingrese primer numero: "))
+n2=float(input("Ingrese segundo numero: "))
 
 if opcion == "1":
     resultado = suma(n1,n2)
