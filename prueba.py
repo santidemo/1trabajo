@@ -28,4 +28,14 @@ n2=float(input("Ingrese segundo numero"))
 if opcion == "1":
     resultado = suma(n1,n2)
     print("El resultado de la suma es:",resultado)
-    
+elif opcion == "2":
+    resultado= multiplicacion(n1,n2)
+    print("El resultado de la multiplicacion es",resultado)
+elif opcion == "3":
+    resultado= resta(n1,n2)
+    print("El resultado de la resta es",resultado)
+elif opcion == "4":
+    resultado= division(n1,n2)
+    print("El resultado de la division es",resultado)
+else:
+    print("Opcion no valida. Intente de vuelta")
