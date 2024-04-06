@@ -9,6 +9,8 @@ def division(a,b):
         return a / b
     else:
         return "No se puede dividir con 0"
+def Potencia(a,b):
+    return a ** b
     
 
 #Entorno Visual para el usuario
@@ -20,6 +22,7 @@ print("1_ Suma")
 print("2_ Multiplicacion")
 print("3_ Resta")
 print("4_ Division")
+print("5_ potencia(primer numero base, segundo el numero a elevar)")
 
 opcion = input("Seleccione un numero para su operacion: ")
 n1=float(input("Ingrese primer numero: "))
@@ -37,5 +40,10 @@ elif opcion == "3":
 elif opcion == "4":
     resultado= division(n1,n2)
     print("El resultado de la division es",resultado)
+elif opcion == "5":
+    
+    resultado= Potencia(n1,n2)
+    print("El resultado de la potencia es:",resultado)
+    
 else:
     print("Opcion no valida. Intente de vuelta")
