@@ -32,6 +32,7 @@ print("2_ Multiplicacion")
 print("3_ Resta")
 print("4_ Division")
 print("5_ potencia(primer numero base, segundo el numero a elevar)")
+print("6_Raiz")
 
 opcion = input("Seleccione un numero para su operacion: ")
 n1=float(input("Ingrese primer numero: "))
@@ -53,6 +54,12 @@ elif opcion == "5":
     
     resultado= Potencia(n1,n2)
     print("El resultado de la potencia es:",resultado)
+elif opcion == "6":
+
+    resultado= raiz(n1)
+    resultado2 = raiz(n2)
+    print("La raiz cuadradada  de tu primer  numero es ",resultado)
+    print("La raiz cuadrada de tu segundo numero es",resultado2)
     
 else:
     print("Opcion no valida. Intente de vuelta")
