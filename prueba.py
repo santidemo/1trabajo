@@ -1,3 +1,7 @@
+"""
+En esta parte agregamos la libreria para poder hacerlo son raiz
+"""
+import math
 def suma(a,b):
     return a + b
 def resta(a,b):
@@ -11,6 +15,11 @@ def division(a,b):
         return "No se puede dividir con 0"
 def Potencia(a,b):
     return a ** b
+def raiz(n):
+    if n >= 0:
+        return math.sqrt(n)
+    else:
+        return "No se puede calcular la raiz de un numero negativo"
     
 
 #Entorno Visual para el usuario
